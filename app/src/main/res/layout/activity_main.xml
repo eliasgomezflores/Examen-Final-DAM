@@ -26,6 +26,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="48dp"
         android:layout_marginBottom="196dp"
+        android:onClick="Formulario"
         android:text="@string/textbutton"
         android:textStyle="bold"
         app:backgroundTint="#2C2E8C"

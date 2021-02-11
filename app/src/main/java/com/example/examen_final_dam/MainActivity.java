@@ -14,16 +14,9 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-
-        btnLogin = findViewById(R.id.button);
-
-        // Definir el evento click sobre el botón de login
-        btnLogin.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent i = new Intent(MainActivity.this, Formulario.class);
-                startActivity(i);
-            }
-        });
+    }
+    public void Formulario(View view){
+        Intent i = new Intent(this, Formulario.class);
+        startActivity(i);
     }
 }
