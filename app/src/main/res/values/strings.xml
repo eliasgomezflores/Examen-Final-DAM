@@ -1,3 +1,6 @@
 <resources>
     <string name="app_name">Examen_Final_DAM</string>
+    <string name="textFacebook">Facebook</string>
+    <string name="textlogin" />
+    <string name="textbutton">LOGIN</string>
 </resources>
