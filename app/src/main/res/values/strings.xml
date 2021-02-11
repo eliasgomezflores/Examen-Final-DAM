@@ -3,4 +3,5 @@
     <string name="textFacebook">Facebook</string>
     <string name="textlogin" />
     <string name="textbutton">LOGIN</string>
+    <string name="BtnEnviar">Enviar</string>
 </resources>
